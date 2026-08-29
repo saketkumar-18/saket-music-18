@@ -1,0 +1,29 @@
+{
+  "name": "saket-music-18",
+  "version": "1.0.0",
+  "description": "Saket Music 18 — a free, Spotify-style music streaming PWA powered by the live JioSaavn catalog (millions of full-length tracks, always current).",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "test": "node --test tests/*.mjs",
+    "test:live": "node tests/live.mjs",
+    "verify:api": "node scripts/verify-saavn.mjs",
+    "icons": "python scripts/gen_icons.py"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "music",
+    "player",
+    "jiosaavn",
+    "pwa",
+    "vercel"
+  ],
+  "author": "Saket Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^4.2.0"
+  }
+}

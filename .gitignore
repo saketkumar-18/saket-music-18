@@ -1,0 +1,20 @@
+# build / deploy
+node_modules/
+.vercel/
+.netlify/
+dist/
+*.log
+
+# scratch
+.DS_Store
+Thumbs.db
+__pycache__/
+
+# android TWA: build artifacts + secrets stay local
+twa/.gradle/
+twa/build/
+twa/app/build/
+*.apk
+*.aab
+*.idsig
+android.keystore
